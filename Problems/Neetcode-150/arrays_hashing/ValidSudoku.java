@@ -1,5 +1,7 @@
 // https://leetcode.com/problems/valid-sudoku/
 
+import java.util.*;
+
 class Solution {
   public boolean isValidSudoku(char[][] board) {
     List<HashSet<Character>> rows = new ArrayList<HashSet<Character>>();
